@@ -1,0 +1,437 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(4, 56, 115);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.icon{
+    width: 200px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.t1{
+    width: 191px;
+    height: 34px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.uper-t{
+    width: 800px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.t2{
+    color: white;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f1{
+    width: 220px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.b1{
+    width:  120px;
+    height: 50px;
+    background-color: rgb(255,228,146);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    color: blue;
+}
+.main{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(4, 56, 115, 0.884);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 180px;
+}
+.k1{
+    width: 50%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.k2{
+    width: 50%;
+    height: 440px;  
+}
+.text-a{
+    width: 90%;
+    height: 140px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text-b{
+    width: 90%;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;    
+}
+.f2{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.b2{
+    width:  170px;
+    height: 50px;
+    background-color:rgb(79,156,249);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    color: rgb(255, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main1{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.t3{
+    width: 90%;
+    height: 90px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgba(47, 59, 54, 0.822);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.t4{
+    width: 90%;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(47, 59, 54, 0.822);
+}
+.k3{
+    width: 35%;
+    height: 450px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.i3{
+    width: 100%;
+}
+.main2{
+    width: 100%;
+    height: 500px;
+    background-color:  rgba(4, 56, 115, 0.884);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.t5{
+    width: 90%;
+    height: 120px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgba(47, 59, 54, 0.822);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main3{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(4,79,131);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.f3{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.t6{
+    width: 100%;
+    height: 130px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.t7{
+    width: 65%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.main4{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.t8{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(37, 44, 44);
+}
+.main5{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(4,79,131);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.list{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.t7{
+    width: 50%;
+}
+.t9{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.f4{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:560px) {
+    .i1{
+        width: 280px;
+        height: 350px;
+    }
+    .i3{
+        width: 280px;
+        height: 350px;
+    }
+
+}
+@media screen and (max-width: 1125px) {
+.main5{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    }
+.main{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.main1{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.main2{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.main3{
+    width: 100%;
+    height: 500px;
+}
+.t4{
+    width: 100%;
+    height: 300px;
+}
+.i3{
+    width: 100%;
+    height: 350px;
+}
+.f2{
+    width: 100%;
+}
+.t7{
+    width: 80%;
+    height: 100%;
+}
+.t5{
+    width: 100%;
+    height: 300px;
+}
+.img{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.t6{
+    height: 300px;
+    text-align: center;
+}
+.t7{
+    height: 400px;
+}
+.t3{
+    width: 100%;
+    height: 150px;
+}
+
+.k1{
+    height: 400px;
+}
+}
+@media screen and (max-width: 897px) {
+    .f1{
+        width: 150px;
+    }
+    .k1{
+        height: 400px;
+    }
+    .text-a{
+        width: 100%;
+        height: 200px;
+    }
+    .text-b{
+        width: 100%;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 900px) {
+    nav{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        position: relative;
+    }
+    .icon{
+        width: 265px;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: end;
+    }
+    .t1{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+    .uper-t{
+        width: 250px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        width: 100%;
+        height: 900px;
+        padding-top: 30px;
+    }
+
+}
+@media screen and (max-width: 469px) {
+    .main{
+        width: 100%;
+    }
+}
